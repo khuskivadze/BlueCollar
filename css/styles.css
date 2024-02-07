@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,500;1,600;1,700&display=swap');
+
+/*  || General Css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --PrimeryGold-collor : #FFB342;
+    --PrimeryDarkBlueCollor : #1C2752;
+    --PrimeryWhite : #FFFFFF;
+    --span-grey-collor : #7E7E7E;
+    --Prymery_background : #F2F2F2;
+}
+.title {
+    font-size: 45px;
+    color: var(--PrimeryDarkBlueCollor);
+    font-weight: 800;
+    line-height: 56px;
+}
+.white {
+    font-size: 60px;
+    line-height: 75px;
+    font-weight: 800px;
+
+}
+.title_medum {
+    font-size: 35px;
+    color: var(--PrimeryDarkBlueCollor);
+    height: 43px;
+    font-weight: 800px;
+}
+.title_small {
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 25px;
+    color: var(--PrimeryDarkBlueCollor);
+}
+.text-p{
+    font-size: 17px;
+    color: var(--span-grey-collor);
+    font-weight: 400;
+    line-height: 21.78px;
+
+}
+.sub_text {
+    width: 500px;
+    height: 45px;
+    padding: 8px 16px 7px 16px;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.78px;
+    color: var(--PrimeryWhite);
+}
+/*  || main_container Css */
+.main_container{
+    max-width: 1920px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    color: var(--PrimeryDarkBlueCollor);
+    width: 18.11px;
+    height: 18.11px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+/*  || Header Css */
+header{
+    width: 100%;
+    height: 158px;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-bar{
+    width: 100%;
+    height: 60px;
+    background-color: var(--Prymery_background);
+}
+
+.top-bar .content{
+    width: 1198.86px;
+    height: 22px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    top: 20px;
+    left: 130px;
+    gap: 810px;
+}
+.content_text{
+    width: 265px;
+    height: 22px;
+    
+}
+.top-bar .content .social-media{
+    width: 123.86px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+.header{
+    width: 1198.86px;
+    height: 68px;
+    position: absolute;
+    top: 90px;
+  
+    left: 130px;
+    display: flex;
+    gap: 423px;
+    display: flex;
+    align-items: center;
+
+}
+.header .logo{
+    width: 240.79px;
+    height: 47.5px;
+  
+    gap: 10px;
+   
+}
+.logo .logo_titile {
+  font-size: 35px;
+  color: var(--PrimeryDarkBlueCollor);
+  line-height: 43px;
+  font-weight: 800;
+  display: flex;
+   
+}
+.logo_titile  span {
+    color: var(--PrimeryGold-collor);
+}
+.header .contact {
+    width: 536px;
+    height: 68px;
+    display: flex;
+    gap: 68px;
+    
+}
+.contact .mail {
+    width: 242px;
+    height: 68px;
+    
+    gap: 11px;
+    display: flex;
+    align-items: center;
+}
+.mail .envelope{
+    width: 68px;
+    height: 68px;
+    background-color: var(--PrimeryGold-collor);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--PrimeryDarkBlueCollor);
+}
+.mail  .email{
+    width: 165px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+   
+ 
+}
+
+.contact .call {
+    width: 242px;
+    height: 68px;
+    gap: 11px;
+    
+    display: flex;
+    align-items: center;
+}
+
+.call .telephone{
+    width: 68px;
+    height: 68px;
+    background-color: var(--PrimeryGold-collor);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: var(--PrimeryDarkBlueCollor);
+}
+.call  .call_info{
+    width: 165px;
+    height: 49px;
+    display: flex;
+    flex-direction: column;
+    gap: 2;
+   
+ 
+}
+
